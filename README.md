@@ -22,5 +22,4 @@ Successfully created fr:index@DB0
 The tool automatically detects the available languages by checking the database for existing locale hashes and subsequently asking to create missing ones.
 
 ### Ignoring Hashes
-
 Specific hashes can be ignored, by adding a ```$``` before the name of the site, e.g. ```de:index``` will not be ignored, but ```de:$index``` **will** be ignored.
