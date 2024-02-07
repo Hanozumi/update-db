@@ -23,3 +23,8 @@ The tool automatically detects the available languages by checking the database 
 
 ### Ignoring Hashes
 Specific hashes can be ignored, by adding a ```$``` before the name of the site, e.g. ```de:index``` will not be ignored, but ```de:$index``` **will** be ignored.
+
+## TODO
+
+- *Add ```mk``` command*
+- Add ```rm``` command, to delete certain entries (or keys) from db (or their respective entries)
