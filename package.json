@@ -4,12 +4,10 @@
   "description": "Updates local Redis db, e.g. when creating multiple keys for one language -> creating placeholders for other languages",
   "main": "index.js",
   "bin": "./index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Oliver Pauls",
   "license": "ISC",
   "dependencies": {
+    "commander": "^12.0.0",
     "prompt-sync": "^4.2.0",
     "redis": "^4.6.12"
   }
